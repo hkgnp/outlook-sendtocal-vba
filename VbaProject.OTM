@@ -44,7 +44,7 @@ End With
 
 With mi
     .Body = ""
-    .To = "%EMAIL ADDRESS TO SEND TO%"
+    .To = "test@test.com"
     .Subject = 'Calendar From Outlook'
     .Send
 End With
